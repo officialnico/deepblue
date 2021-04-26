@@ -1,0 +1,24 @@
+{
+	"name": "Flower",
+	"description": "A pretty flower",
+	"image": "https://github.com/officialnico/restaurant/blob/master/flower.jpeg?raw=true",
+	"properties": {
+		"simple_property": "Yellow",
+		"rich_property": {
+			"name": "Dandelion",
+			"value": "123",
+			"display_value": "123 Example Value",
+			"class": "emphasis",
+			"css": {
+				"color": "#ffffff",
+				"font-weight": "bold",
+				"text-decoration": "underline"
+			}
+		},
+		"array_property": {
+			"name": "Name",
+			"value": [1,2,3,4],
+			"class": "emphasis"
+		}
+	}
+}
